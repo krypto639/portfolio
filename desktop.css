@@ -1,0 +1,161 @@
+/*font-family: 'Playfair Display', serif;
+font-family: 'Rozha One', serif;
+font-family: 'Amiri', serif;
+font-family: 'Roboto', sans-serif;*/
+
+/*-----------------------*/
+/*----head------*/
+
+/*----colours v1------*/
+
+/*----nav------*/
+nav
+{width:100%;}
+
+nav ul
+{list-style: none;
+padding:0;
+margin:-10px 0 0 0;
+/*border-style: solid;
+border-width: 1px;
+border-color: aqua;*/}
+
+
+#name
+{font-size: 22px;
+line-height: 32px;
+margin:0 0 0 2%;
+}
+
+#index
+{float: right;
+margin:-86px 3.5% 0 0;
+line-height: 30px;
+font-size:26px;}
+
+
+/*----Projects display------*/
+
+.Layout_Work
+{margin:6% 0 0 0;
+padding:0 1%;
+/*border-style: solid;
+border-width: 1px;
+border-color: green;*/}
+
+
+.Layout_Work a
+{float:left;
+margin: 0px;
+/*padding: 0.5%;*/
+color: white;
+/*border-width: 1px;
+border-color: blue;
+
+/*max-width:1500px; 
+width: 47%;
+min-width:480px;*/
+}
+
+/*----------Crop---------*/
+.DisplayP
+{width:30vw;
+/*max-height:354px*/;
+height:23vw;
+overflow: hidden;
+margin: 0 0 0% 0;
+
+/*border-style: solid;
+border-width: 0.5px;
+border-color: red;*/}
+
+/*----------Project Cropping---------*/
+#colour
+{width:100%;
+margin:0 0 0 0%;}
+
+#Angus
+{width: 62%;
+margin:7% 0 0 18%;}
+/*----------Project PG---------*/
+#ProjectLayout 
+{
+width:88%;
+padding:0 6% 0;
+/*border-style: solid;
+border-width: 1px;
+border-color: red; */}
+
+iframe
+{width:100%;
+/*max-height: 400px;*/
+height:48.8vw;
+margin: 2.5% 0 0;
+/*border-style: solid;
+border-width: 1px;
+border-color: red;*/}
+
+
+#details
+{margin:0 0 0% 0px;
+padding: 1% 0 2%;}
+
+#details h1
+{font-size: 35px;
+margin-left: 0px;}
+
+.column
+{float:left;
+width:30%;
+padding: 0 3% 1% 4.5%;
+/*border-style: solid;
+border-width: 0.1px;
+border-color: yellowgreen;*/}
+
+#C1
+{margin-left: 0px;}
+.column .tighten
+{width:90%;}
+
+
+.description
+{width:97%;
+float: left;
+position: relative;
+margin: 0% 0% 22px 0px;
+padding: 0 0 0;
+/*border-style: solid;
+border-width: 1px;
+border-color: blue;*/
+}
+/*----------ABOUT PG---------*/
+#kw_img
+{
+/*max-width: 220px;*/
+height:auto;
+margin:-10% 0 0 0%;
+}
+
+.DisplayA
+{max-height: 360px;
+max-width:260px;
+margin-left:6vw;
+/*border-style: solid;
+border-width: 5px;
+border-color: green;*/}
+
+.AboutText
+{max-width:600px;
+
+/*border-style: solid;
+border-width: 5px;
+border-color: green;*/}
+
+/*----------Projects individual customization---------*/
+#ProjectLayout .postcard
+{border-style: solid;
+border-width: 1px;
+border-color: black;}
+
+#myDIV
+{display: none;}

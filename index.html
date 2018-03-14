@@ -2,54 +2,103 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Kyle Whyte Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!---discovery data-->   
+    <meta name="author" content="Kyle Whyte">
+    
+    <meta name="keywords" content="graphic design, design, branding, print, ui, ux, app,character design, video, portfolio, kyle whyte, work, New Zealand, Nelson">
+    
+    <meta name="description" content="HI. I’m an interdisciplinary designer skilled in print, web, branding and graphic design. I love design, especially in what it can offer to problems we encounter everyday, and enjoy design as a strategy, applied in the solution of these problems.">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="mobile.css">
 
-	<link rel="stylesheet" href="style_desktop.css">
+<!---responsive stylesheets--> 
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="mobile.css">
     
-    <link rel="stylesheet" media="screen and (max-width:580px)" href="style_mobile.css" />
-    <!--Font-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+        <link rel="stylesheet" media="screen and (max-width:640px)" href="mobile.css">
     
-    <script type="text/javascript" src="jquery-2.2.2.min.js"></script>
-     <script type="text/javascript" src="index.js"></script> 
+        <link rel="stylesheet" media="screen and (min-width:641px)" href="tablet.css">
+    
+        <link rel="stylesheet" media="screen and (min-width:901px) and (max-width:1600px)" href="desktop.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Amiri:400i|Playfair+Display|Roboto|Rozha+One|Open+Sans" rel="stylesheet">
+
     
     </head>
-    
     <body>
 
         
-        <div class="greeting">
-        <p1>Hello</p1>
-        <p2><br>My name is Kyle, i'm a graphic designer in Wellington, New Zealand. I'm skilled in UI, UX, Editorial, Branding and Graphic design.
-        </p2>
+    <nav> 
         <ul>
-            <li><p1>Things I've Designed</p1></li>
-            <li><a class="Letterpress" href="https://www.behance.net/gallery/54337889/What-you-say-what-you-mean">What you say. What you mean</a></li>
-            <li><a class="Fashion" href="https://www.behance.net/gallery/38525053/The-Dark-Side-of-Fashion">The Dark Side of Fashion</a></li>
-            <li><a  class="Crunch" href="https://www.behance.net/gallery/37802475/Crunch-Time">Crunch Time</a></li>
-        </ul>    
-        <p2> If your interested in collobrating, feel free to contact me and I would be happy to discuss your idea or project with you.<br><br>You can view my work on <a href="https://www.behance.net/Kyle_W">behance</a> <br>or <a href="https://www.instagram.com/kylew_artanddesign/">instagram</a> or say hello at <a class="underline" href="mailto:hello@kylewhyte.co.nz">hello@kylewhyte.co.nz</a>
-            </p2> 
+            <li id="name"><h1>Kyle Whyte</h1></li>
+            <div id="index">
+            <li class="active"><a href="#">work </a></li>
+            <li class="secondary"><a href="about.html">about</a></li>
+            </div>
+        </ul>
+    </nav>
+        
+    <div class="Layout_Work">
+    <a href="Adrift.html"><div class="DisplayP">
+    <img id="adrift" src="imgs/adrift1.jpg" alt="Adrift mobile app" class="image">
+    </div>
+    <div class="overlay">
+    <div class="text">Adrift</div>
+    </div>
+    </a>
+        
+    <a href="Letterpress.html"><div class="DisplayP">   
+    <img id="Letterpress"src="imgs/letterpress2.jpg" alt="What you say, What you mean" class="image">
+    </div>
+    <div class="overlay">
+    <div class="text">What you say. What you mean</div>
+    </div>
+    </a>
         
         
-        </div>
+    <a href="Fashion.html"><div class="DisplayP">
+    <img id="Fashion" src="imgs/fashion3.jpg" alt="Dark Side of Fashion" class="image">
+    </div>
+    <div class="overlay">
+    <div class="text">Dark Side of Fashion</div>
+    </div>
+    </a>
         
-            
-<div class="show">    
-   <h1 id="name"> Kyle Whyte</h1>
-    
-    
-        </div>
-    
-    
-<!--    <img class="Display1" src="LetterpressBook3.jpg" alt="Marbled page intro to What you say. What you mean.">-->
-<!--
-    <img class="Display2" src="DarkFashion1.jpg" alt="Dark Side of Fashion image">
-    <img class="Display3" src="CrunchTime1.jpg" alt="Packaging design of honey, oats and dark chocolate flavour">    
--->
+    <a href="Crunch.html"><div class="DisplayP">
+    <img id="Crunch"src="imgs/crunch2d.jpg" alt="Crunch Time" class="image">
+    </div>
+    <div class="overlay">
+    <div class="text">Crunch Time</div>
+    </div>
+    </a>
         
+<a href="ColourCode.html">
+    <div class="DisplayP">
+        <img id="colour" src="imgs/colourcode2.jpg" alt="Colour Code"class="image">
+    </div>
+    <div class="overlay">
+    <div class="text">Colour Code</div>
+    </div>
+</a>
+        
+    <a href="Angus.html"><div class="DisplayP">
+    <img id="Angus" src="imgs/character1.jpg" alt="Angus reimagined Character design for irn bru mascot"class="image"></div>
+    <div class="overlay">
+    <div class="text">Irn bru mascot design</div>
+    </div>
+    </a>
     
-    </body>
+    <a href="Light.html"><div class="DisplayP">
+    <img id="Light" src="imgs/light2.jpg" alt="Lightshade"class="image">
+    </div>
+    <div class="overlay">
+    <div class="text">Lightshade</div>
+    </div>
+ </a>
+
+        
+    </div>
+</body>
 </html>

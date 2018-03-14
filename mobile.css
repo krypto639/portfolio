@@ -1,0 +1,238 @@
+/*-----------------------*/
+/*----head------*/
+title
+{display: none;}
+/*----body------*/
+body li,a,p1,p2,p3
+{font-family:'Roboto', sans-serif;
+}
+
+/*----colours v1------*/
+body a
+{font-weight:700;
+color: #5499C7;
+text-decoration: none;} /*#F0F3F4*/
+
+nav a, h1
+{font-family:'Roboto', sans-serif;
+font-weight:900;
+text-decoration: none;
+color: #2C3E50;}
+
+a:hover
+{border-bottom: 2px solid #5499C7;
+}
+
+.active a
+{color:#5499C7;
+text-decoration: line-through;/*#F0F3F4 ;*/}
+
+.active a:hover
+{color:#5499C7; /*#F0F3F4 ;*/
+border-bottom:none;}
+
+.secondary a
+{/*color:#222222; /*#F0F3F4 ;*/}
+
+.secondary a:hover
+{border-bottom: 3px solid #5499C7;
+text-decoration:none;
+}
+/*----nav------*/
+nav
+{width:100%;}
+
+nav ul
+{list-style: none;
+font-size:20px;
+padding:0;
+margin:-10px 0 0 0;
+/*border-style: solid;
+border-width: 1px;
+border-color: aqua;*/}
+
+
+#name
+{width:40px;
+line-height: 32px;
+margin:0 0 0 2%;
+}
+
+#index
+{float: right;
+margin:-88px 2.5% 0 0;
+line-height: 32px;
+font-size:26px;}
+
+
+/*----Projects display------*/
+.Layout_Work
+{margin:10% 0 0 0%;
+padding:0 1.5% 0 1.5%}
+
+.Layout_Work img
+{width:97%;
+/*
+height:auto;
+margin: 3% 1.5% 0 1.5%;  
+border-style: solid;
+border-width: 5px;
+border-color: red;*/}
+
+.text{}
+
+/*----------Crop---------*/
+.DisplayP
+{width:auto;
+height:70vw;
+overflow: hidden;
+margin: 0 0 3% 0;
+/*border-style: solid;
+border-width: 5px;
+border-color: red;*/}
+/*---------text hidden---------*/
+.text
+{display: none;}
+/*----------Project Cropping---------*/
+#adrift
+{width:;
+margin:8% 0 0 0;}
+
+#Letterpress
+{width:105%;
+margin:0% 0 0 -1%;}
+
+#Fashion
+{width:133%;
+margin:0 0 0 -15%;} /*-7.2vw top if using dot*/
+
+#Crunch
+{width:100%;
+margin:0 0 0 0;}
+
+#Angus
+{width:72%;
+margin:4% 0 0 15%;}
+
+#Light
+{width:107%;
+margin: -34% 0 0 -7%;}
+
+/*----------ABOUT PG---------*/
+#kw_img
+{width:100%;
+height:auto;
+margin:-10% 0 0 0%;
+}
+
+.DisplayA
+{
+height:48vw;
+min-height: 124px;
+min-width: 90px;
+width:35vw;
+overflow: hidden;
+margin:10% 30% 5%;
+border-style: solid;
+border-width: 1px;
+border-color: green;*/}
+
+.AboutText
+{margin:0 9%;
+padding: 0 0;
+font-family:'Roboto', sans-serif;}
+
+.AboutText p2
+{
+}
+
+
+/*----------Project PG---------*/
+
+#ProjectLayout
+{margin:5% 0 0 0%;
+padding:0 1.5% 0 1.5%;}
+
+#ProjectLayout img
+{width:100%;
+/*margin: 0 0 2% 0%;
+border-style: solid;
+border-width: 5px;
+border-color: red;*/}
+
+/*.VideoFrame
+{max-width: 540px;
+max-height: 270px;
+height:51vw;
+overflow: hidden;
+border-style: solid;
+border-width: 5px;
+border-color: silver;
+}*/
+iframe
+{width:100%;
+height:52vw;
+margin: 4% 0%;
+/*border-style: solid;
+border-width: 1px;
+border-color: red;*/}
+
+.issu
+{width:100%;
+max-height: 270px;
+height:52vw;
+margin: -2% 0% 4% 0;
+/*border-style: solid;
+border-width: 5px;
+border-color: red;*/}
+
+#ProjectLayout p1
+{font-family:'Roboto', sans-serif;
+width:100%;
+
+}
+/*----------Detials & Description Project pg--------*/
+#ProjectLayout h1
+{font-family:'Roboto', sans-serif;
+font-weight:bolder;}
+
+#ProjectLayout ul li
+{list-style: none;
+font-family:'Roboto', sans-serif;
+margin: 0 0 10px -40px;}
+
+#details
+{padding:0 1.5% 10%;
+width:97%;
+margin:0 0 0px;}
+
+.column
+{float:left;
+width:27%;
+height:auto;
+margin: 0 6% 4px 0;
+/*border-style: solid;
+border-width: 0.1px;
+border-color: yellowgreen;*/}
+
+.column .tighten
+{}
+
+.description
+{width:97%;
+height:auto;
+float:left;
+margin: 0 0 0%;
+padding: 0 1.5% 12px;
+/*border-style: solid;
+border-width: 1px;
+border-color: blue;*/
+}
+/*----------Projects individual customization---------*/
+#ProjectLayout .postcard
+{border-style: solid;
+border-width: 1px;
+border-color: black;}
+
+#myDIV
+{display: none;}

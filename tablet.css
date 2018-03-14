@@ -1,0 +1,167 @@
+/*font-family: 'Playfair Display', serif;
+font-family: 'Rozha One', serif;
+font-family: 'Amiri', serif;
+font-family: 'Roboto', sans-serif;*/
+
+/*-----------------------*/
+/*----head------*/
+
+
+/*----nav------*/
+nav
+{width:100%;}
+
+nav ul
+{list-style: none;
+padding:0;
+margin:-10px 0 0 0;
+/*border-style: solid;
+border-width: 1px;
+border-color: aqua;*/}
+
+
+#name
+{font-size: 22px;
+line-height: 32px;
+margin:0 0 0 2%;
+}
+
+#index
+{float: right;
+margin:-86px 2vw 0 0;
+line-height: 30px;
+font-size:26px;}
+
+
+/*----Projects display------*/
+
+.Layout_Work
+{margin:6% 0 0 0;
+padding:0 2.5%;
+/*border-style: solid;
+border-width: 1px;
+border-color: green;*/}
+
+
+.Layout_Work a
+{float:left;
+/*border-style: solid;*/
+padding: 1%;
+color: white;
+/*border-width: 1px;
+border-color: red;
+margin: 0.5%;
+/*max-width:1500px; 
+width: 47%;
+min-width:480px;*/
+}
+
+.Layout_Work a:hover
+{border-bottom:none;}
+/*----------Crop---------*/
+.DisplayP
+{width:44vw;
+/*max-height:354px*/;
+height:34vw;
+overflow: hidden;
+margin: 0 0 0% 0;
+
+/*border-style: solid;
+border-width: 5px;
+border-color: red;*/}
+/*---------text hidden---------*/
+.text
+{display: none;}
+
+
+/*----------Project Cropping---------*/
+#colour
+{width:110%;
+margin:0 0 0 -4%;}
+
+#Angus
+{width: 70%;
+margin:7% 0 0 18%;}
+
+
+/*----------ABOUT PG---------*/
+#kw_img
+{width:100%;
+height:auto;
+margin:0% 0 0 0%;
+padding:0 ;
+/*border-style: solid;
+border-width: 5px;
+border-color: green;*/}
+
+.DisplayA
+{width:28vw;
+height:39vw;
+overflow: hidden;
+margin: 104px 0 7% 4vw;
+/*border-style: solid;
+border-width: 5px;
+border-color: red;*/}
+
+
+.AboutText
+{width:56%;
+position: absolute;
+top:190px;
+left:29vw;
+font-family:'Roboto', sans-serif;}
+
+
+/*----------Project PG---------*/
+iframe
+{width:100%;
+/*max-height: 400px;*/
+height:54vw;
+margin: 1% 0%;
+/*border-style: solid;
+border-width: 1px;
+border-color: red;*/}
+
+#details
+{padding:0 0% 9% 1%;
+width:92%;
+margin:0 2% 0;}
+
+#details h1
+{margin:0 0 0 -12px ;
+padding: 2% 0 2%;}
+
+.column
+{float:left;
+width:32%;
+padding: 0 0 1% 4%;}
+/*border-style: solid;
+border-width: 0.1px;
+border-color: yellowgreen;}*/
+
+.column .tighten
+{width:90%;}
+
+#C1
+{margin-left: 10px;}
+
+.description
+{width:97%;
+float: left;
+position: relative;
+margin: 0% 0% 0 0px;
+padding: 0 1.5% 18px;
+/*border-style: solid;
+border-width: 1px;
+border-color: blue;*/
+}
+
+/*----------Projects individual customization---------*/
+#ProjectLayout .postcard
+{border-style: solid;
+border-width: 1px;
+border-color: black;}
+
+#myDIV
+{display: none;}        
+
