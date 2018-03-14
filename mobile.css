@@ -236,3 +236,10 @@ border-color: black;}
 
 #myDIV
 {display: none;}
+
+#ProjectLayout .angus-cover
+{width:74%;
+padding:0 13%;
+border-style: solid;
+border-width: 1px;
+border-color: yellow;}
