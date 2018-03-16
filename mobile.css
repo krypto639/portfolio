@@ -1,7 +1,7 @@
 /*-----------------------*/
 /*----head------*/
 title
-{display: none;}
+{}
 /*----body------*/
 body li,a,p1,p2,p3
 {font-family:'Roboto', sans-serif;
@@ -210,13 +210,10 @@ margin:0 0 0px;}
 {float:left;
 width:27%;
 height:auto;
-margin: 0 6% 4px 0;
-/*border-style: solid;
-border-width: 0.1px;
-border-color: yellowgreen;*/}
+}
 
-.column .tighten
-{}
+#C1
+{margin-right:8px;}
 
 .description
 {width:97%;

@@ -118,17 +118,15 @@ iframe
 /*max-height: 400px;*/
 height:54vw;
 margin: 1% 0%;
-/*border-style: solid;
-border-width: 1px;
-border-color: red;*/}
+}
 
-#details
+/*#details
 {padding:0 0% 9% 1%;
 width:92%;
-margin:0 2% 0;}
+margin:0 0 0 -12px;}
 
 #details h1
-{margin:0 0 0 -12px ;
+{margin:0 0 0 0px ;
 padding: 2% 0 2%;}
 
 .column
@@ -137,13 +135,22 @@ width:32%;
 padding: 0 0 1% 4%;}
 /*border-style: solid;
 border-width: 0.1px;
-border-color: yellowgreen;}*/
+border-color: yellowgreen;}
 
 .column .tighten
 {width:90%;}
 
 #C1
-{margin-left: 10px;}
+{margin-left: 10px;}*/
+
+.details
+{padding-bottom: 7%;}
+
+.column
+{max-width:180px;}
+
+#C1
+{padding-right:5%;}
 
 .description
 {width:97%;

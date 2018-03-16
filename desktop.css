@@ -95,35 +95,25 @@ margin: 2.5% 0 0;
 border-width: 1px;
 border-color: red;*/}
 
-
-#details
-{margin:0 0 0% ;
-padding: 1% 0 2% 0;}
-
 #details h1
 {font-size: 35px;
-margin-left: 0%;}
+padding-bottom:0;
+margin-bottom:20px;}
+
+
+#details{
+padding-bottom:6,9%;
+}
 
 .column
-{float:left;
-width:30%;
-padding: 0 3% 1% 4%;
-/*border-style: solid;
-border-width: 0.1px;
-border-color: yellowgreen;*/}
-
-#C1
-{margin-left: 0px;}
-.column .tighten
-{width:90%;}
-
+{padding:none;;
+margin:none;}
 
 .description
 {width:97%;
 float: left;
 position: relative;
-margin: 0% 0% 22px 0px;
-padding: 0 0 0;
+/*margin-bottom: 22px;
 /*border-style: solid;
 border-width: 1px;
 border-color: blue;*/
