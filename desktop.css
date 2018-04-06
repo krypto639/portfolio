@@ -69,6 +69,14 @@ margin: 0 0 0% 0;
 border-width: 0.5px;
 border-color: red;*/}
 
+/*.hollow{
+display:block;
+float:left;
+margin:10px;
+/*border-style: solid;
+border-width: 0.5px;
+border-color: red;}*/
+
 /*----------Project Cropping---------*/
 #colour
 {width:100%;
@@ -107,7 +115,9 @@ padding-bottom:6,9%;
 
 .column
 {padding:none;;
-margin:none;}
+margin:none;
+}
+
 
 .description
 {width:97%;
