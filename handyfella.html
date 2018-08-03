@@ -3,65 +3,113 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-     
-<!---discovery data-->   
+    
+        <!---discovery data-->   
     <meta name="author" content="Kyle Whyte">
     
-    <meta name="keywords" content="Handy Fella, Brent Whyte, kyle whyte, design, branding, web">
+    <meta name="keywords" content="graphic design, design, branding, print, ui, ux, app,character design, video, portfolio, kyle whyte, work, New Zealand, Nelson">
     
-    <meta name="description" content="Handy Fella is a newly founded general maintenance company located in Nelson region that provides excellent quality in a variety of services to home maintenance job.">
+    <meta name="description" content="Hi, my name is Kyle and i’m an interdisciplinary designer skilled in print, web, branding and graphic design. Click in to see my portfolio.">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="mobile.css">
     
-	<title>Handy Fella</title>
+    <link rel="shortcut icon" href="imgs/w-icon.png">
+
 <!---responsive stylesheets--> 
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" type="text/css" href="mobile.css">
-    
-        <link rel="stylesheet" media="screen and (max-width:640px)" href="mobile.css">
-    
-         <link rel="stylesheet" media="screen and (min-width:641px)" href="tablet.css">
-    
-        <link rel="stylesheet" media="screen and (min-width:901px) and (max-width:1600px)" href="desktop.css">
-    
-    
-    <link href="https://fonts.googleapis.com/css?family=Amiri:400i|Playfair+Display|Roboto|Rozha+One" rel="stylesheet">
 
-<link rel="shortcut icon" href="imgs/w-icon.png">
+    <!--<link href="https://fonts.googleapis.com/css?family=Amiri:400i|Playfair+Display|Roboto|Rozha+One|Open+Sans" rel="stylesheet">-->
+    
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,900|Poppins:400,400i" rel="stylesheet">
+
     
     </head>
     <body>
+
+<div id="navigation_bar">        
+<h1 class="T_portfolio"><a href="index.html">Whyte</a></h1>        
+<nav class="navbar">
+<!--<img class="nav-icon" href="#">-->
+<span class="open-slide" onclick="openSlideMenu()"><a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#222" stroke-width="4"/>
+            <path d="M0,14 30,14" stroke="#222" stroke-width="4"/>
+            <path d="M0,23 30,23" stroke="#222" stroke-width="4"/>
+        </svg>
+      </a>
+</span>
+</nav>
+
         
-    <nav> 
-        <ul>
-            <li id="name"><h1>Kyle Whyte</h1></li>
-            <div id="index">
-            <li class="secondary"><a href="http://kylewhyte.co.nz">work </a></li>
-            <li class="secondary"><a href="http://kylewhyte.co.nz/about">about</a></li>
-            </div>
-        </ul>
-    </nav>
+<ul class="navbar-nav">
+<li><a href="index.html">Work</a></li>
+<li><a href="about.html">About</a></li>
+</ul>
         
-    <div id="ProjectLayout" class="ProjectLayout">     
-   
-        <h1>Handy Fella</h1>
+<div id="side-menu" class="side-nav">
+<a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+<ul>
+    <li><a href="index.html">Work</a></li>
+    <li><a href="about.html">About</a></li>
+    </ul>
+
+</div>
+
+</div>
+        
+
+<div id="main">
     
-        <div  class="description"><p1>Handy Fella is a newly founded general maintenance company located in Nelson region that provides excellent quality in a variety of services to home maintenance job. The client required identity design, business cards and a business website with which they could reach their customers. 
+    <div id="container">
+        
+    <div  class="description">
+        <h2>Handy Fella</h2>
+        <p1>Approached by the client I was tasked with creating a digital and physical identity to promote a recently established general maintenance and painting company. The name Handy Fella was selected to represent the new brand because of its relation to the work as a way of expressing someones ability to perform a wide variety of jobs which the company wished to represent. Drawing inspiration from the client's Scottish background I then used blue as a core colour in the branding along with a character logo that symbolized the can do attitude of the brand. Final outputs of the project were business cards, personalized notepad and responsive website design, visitable at
             
-        <br><br>
-        <a href="http://www.handyfella.co.nz/">www.handyfella.co.nz</a>    
-        </p1></div>    
-   
-    <img class="" src="imgs/handyfella_web1" alt="handy fella web">
-
+        <!--<br><br>-->
+        <a href="http://www.handyfella.co.nz/" target="_blank">www.handyfella.co.nz</a>    
+        </p1></div>   
     
-<!--The final design incorporated the clients background from Scotland using a deep blue and brocher mentality into the character logo of the business-->
-
-
-<!--<div class="H_imgBorder"><img class="H_img1" src="imgs/hanyfella_bCards1.jpg" alt="whale"></div>-->
-
-        <div class="H_imgBorder"><img class="H_img2" src="imgs/handyfella_bCard2.jpg" alt="whale"></div>
+        <img class="" src="imgs/handyfella/collection.jpg" >
         
-<!--<div class="H_imgBorder"><img class="H_img3" src="imgs/handyfella_bCard3.jpg" alt="whale"></div>-->
+        <!--<img src="imgs/handyfella/ipad2_home.jpg">-->
         
-        </div>
-    </body>
+        <img src="imgs/handyfella/ipad_about.jpg">
+        
+        <img src="imgs/handyfella/ipad_jobs.jpg">
+        
+        <img src="imgs/handyfella/ipad_services.jpg">
+        
+        
+         <div class="next_project">
+      
+        <h4>
+        <a href="gorgeNZ.html">previous</a>
+        /
+        <a href="C_Murray.html">next</a>
+        </h4>
+    </div> 
+        
+    
+    </div>  
+    
+  
+      
+    
+    </div>
+    
+    <script>
+        function openSlideMenu(){
+          document.getElementById('side-menu').style.width = '100%';
+
+          document.getElementById('main').style.marginLeft = '0px';
+        }
+
+        function closeSlideMenu(){
+          document.getElementById('side-menu').style.width = '0';
+          document.getElementById('main').style.marginLeft = '0';
+        }
+    </script> 
+</body>
 </html>

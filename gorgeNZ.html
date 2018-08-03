@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!---discovery data-->   
+    <meta name="author" content="Kyle Whyte">
+    
+    <meta name="keywords" content="graphic design, design, branding, print, ui, ux, app,character design, video, portfolio, kyle whyte, work, New Zealand, Nelson">
+    
+    <meta name="description" content="Hi, my name is Kyle and i’m an interdisciplinary designer skilled in print, web, branding and graphic design. Click in to see my portfolio.">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="mobile.css">
+    
+    <link rel="shortcut icon" href="imgs/w-icon.png">
+
+<!---responsive stylesheets--> 
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="mobile.css">
+
+    <!--<link href="https://fonts.googleapis.com/css?family=Amiri:400i|Playfair+Display|Roboto|Rozha+One|Open+Sans" rel="stylesheet">-->
+    
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,900|Poppins:400,400i" rel="stylesheet">
+
+    
+    </head>
+    <body>
+
+<div id="navigation_bar">        
+<h1 class="T_portfolio"><a href="index.html">Whyte</a></h1>        
+<nav class="navbar">
+<!--<img class="nav-icon" href="#">-->
+<span class="open-slide" onclick="openSlideMenu()"><a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#222" stroke-width="4"/>
+            <path d="M0,14 30,14" stroke="#222" stroke-width="4"/>
+            <path d="M0,23 30,23" stroke="#222" stroke-width="4"/>
+        </svg>
+      </a>
+</span>
+</nav>
+
+        
+<ul class="navbar-nav">
+<li><a href="index.html">Work</a></li>
+<li><a href="about.html">About</a></li>
+</ul>
+        
+<div id="side-menu" class="side-nav">
+<a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+<ul>
+    <li><a href="index.html">Work</a></li>
+    <li><a href="about.html">About</a></li>
+    </ul>
+
+</div>
+
+</div>
+        
+
+<div id="main">
+    
+    <div id="container">
+        
+    <div  class="description">
+        <h2>The Gorge NZ</h2>
+        <p1>Approaching Upshift studio in Nelson I was granted the opportunity to do some work experience providing a concept design for one of their clients the Gorge NZ which provided amazing mountain bike experience across their 54 amazing tracks. Receiving feedback from riders local and international of interest in purchasing merchandise to remember their experience, I was tasked with investigate this feedback by exploring possible expansion of the brand into various forms of merchandise for customers to enjoy. In consideration of the different riders that visit the track, the designs needed to be suitable for a varied age group while incorporating the logo into the design. Testing the logo on a variety of merchandise I found that while it had the ability to carry itself well, it could incorporate more visual inspiration from the tracks of the Gorge NZ in stickers and t-shirts to enhance the brand. Researching current merchandise in biking and outdoor exploration I was inspired by the use of topography in trail funds long sleeve t-shirts into their merchandise. My final designs explored a variety of applications of topography design available to the brand using simple shapes to more full bodied prints taking the design onto the sleeves.
+        
+        </p1></div>   
+    
+        <img class="" src="imgs/gorgeNZ/logo_experiments.gif" >
+        
+        <!--<img class="gorgeSticker" src="imgs/gorgeNZ/sticker.jpg" >-->
+        
+        <img src="imgs/gorgeNZ/gorge_0002_sticker.jpg" alt="sticker design">
+        
+        <div id="compare-2">
+        <!--<img class="" src="imgs/gorgeNZ/bTop_circle.jpg" >-->
+        
+        <img class="" src="imgs/gorgeNZ/wTop_circle.jpg" >
+            
+        <img class="" src="imgs/gorgeNZ/bTop_rect.jpg" >
+        
+        <!--<img class="" src="imgs/gorgeNZ/wTop_rect.jpg" >-->
+            
+        <!--<img class="" src="imgs/gorgeNZ/bTop_triangle.jpg" >-->
+            
+        <img class="" src="imgs/gorgeNZ/wTop_triangle.jpg" >
+            
+        <img class="" src="imgs/gorgeNZ/bTop_fullbody.jpg" >
+        
+        <!--<img class="" src="imgs/gorgeNZ/wTop_fullbody.jpg" >-->
+        </div> 
+        
+        <div class="next_project">
+      
+        <h4>
+        <a href="adrift.html">previous</a>
+        /
+        <a href="handyfella.html">next</a>
+        </h4>
+    </div>
+    
+    </div>  
+    
+      
+    
+    </div>
+    
+    <script>
+        function openSlideMenu(){
+          document.getElementById('side-menu').style.width = '100%';
+
+          document.getElementById('main').style.marginLeft = '0px';
+        }
+
+        function closeSlideMenu(){
+          document.getElementById('side-menu').style.width = '0';
+          document.getElementById('main').style.marginLeft = '0';
+        }
+    </script> 
+</body>
+</html>

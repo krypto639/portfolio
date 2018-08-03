@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!---discovery data-->   
+    <meta name="author" content="Kyle Whyte">
+    
+    <meta name="keywords" content="graphic design, design, branding, print, ui, ux, app,character design, video, portfolio, kyle whyte, work, New Zealand, Nelson">
+    
+    <meta name="description" content="Hi, my name is Kyle and i’m an interdisciplinary designer skilled in print, web, branding and graphic design. Click in to see my portfolio.">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="mobile.css">
+    
+    <link rel="shortcut icon" href="imgs/w-icon.png">
+
+<!---responsive stylesheets--> 
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="mobile.css">
+
+    <!--<link href="https://fonts.googleapis.com/css?family=Amiri:400i|Playfair+Display|Roboto|Rozha+One|Open+Sans" rel="stylesheet">-->
+    
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,900|Poppins:400,400i" rel="stylesheet">
+
+    
+    </head>
+    <body>
+
+<div id="navigation_bar">        
+<h1 class="T_portfolio"><a href="index.html">Whyte</a></h1>        
+<nav class="navbar">
+<!--<img class="nav-icon" href="#">-->
+<span class="open-slide" onclick="openSlideMenu()"><a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#222" stroke-width="4"/>
+            <path d="M0,14 30,14" stroke="#222" stroke-width="4"/>
+            <path d="M0,23 30,23" stroke="#222" stroke-width="4"/>
+        </svg>
+      </a>
+</span>
+</nav>
+
+        
+<ul class="navbar-nav">
+<li><a href="index.html">Work</a></li>
+<li><a href="about.html">About</a></li>
+</ul>
+        
+<div id="side-menu" class="side-nav">
+<a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+<ul>
+    <li><a href="index.html">Work</a></li>
+    <li><a href="about.html">About</a></li>
+    </ul>
+
+</div>
+
+</div>
+        
+
+<div id="main">
+    
+    <div id="container">
+        
+    <div  class="description">
+        <h2>Cameron Murray Portfolio</h2>
+        <p1>Having known the client I knew that having recently entered into professional photography shoots for wild tomato that he was looking to have a separate digital platform from his social media to store his collection of professional, personal and travel photography. Working together with the client we gathered inspiration from visiting photographers websites like samuel elkins and samuel david smith to inform the layout presentation. Challenges in the design were the responsive coding and working with flex box layouts to create pages that would present a collection of portrait and landscape photography together smoothly. Click
+
+            
+        <!--<br><br>-->
+        <a href="https://krypto639.github.io/cameron-murray/index.html" target="_blank">here</a>    
+        to visit the website.</p1></div>   
+    
+        
+        <img class="" src="imgs/c_Murray/cover2.gif">
+        
+        <img class="" src="imgs/c_Murray/Ipad_about.jpg">
+        
+        <img class="" src="imgs/c_Murray/Ipad_project.jpg">
+        
+        <img class="" src="imgs/c_Murray/Ipad_print.jpg">
+        
+        
+        
+            <div class="next_project">
+      
+        <h4>
+        <a href="handyfella.html">previous</a>
+        /
+        <a href="angus.html">next</a>
+        </h4>
+    </div>
+    
+    </div>  
+    
+
+      
+    
+    </div>
+    
+    <script>
+        function openSlideMenu(){
+          document.getElementById('side-menu').style.width = '100%';
+
+          document.getElementById('main').style.marginLeft = '0px';
+        }
+
+        function closeSlideMenu(){
+          document.getElementById('side-menu').style.width = '0';
+          document.getElementById('main').style.marginLeft = '0';
+        }
+    </script> 
+</body>
+</html>

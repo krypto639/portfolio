@@ -9,7 +9,7 @@
     
     <meta name="keywords" content="graphic design, design, branding, print, ui, ux, app,character design, video, portfolio, kyle whyte, work, New Zealand, Nelson">
     
-    <meta name="description" content="HI. I’m an interdisciplinary designer skilled in print, web, branding and graphic design. I love design, especially in what it can offer to problems we encounter everyday, and enjoy design as a strategy, applied in the solution of these problems.">
+    <meta name="description" content="Hi, my name is Kyle and i’m an interdisciplinary designer skilled in print, web, branding and graphic design. Click in to see my portfolio.">
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" type="text/css" href="mobile.css">
     
@@ -18,103 +18,117 @@
 <!---responsive stylesheets--> 
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" type="text/css" href="mobile.css">
-    
-        <link rel="stylesheet" media="screen and (max-width:640px)" href="mobile.css">
-    
-        <link rel="stylesheet" media="screen and (min-width:641px)" href="tablet.css">
-    
-        <link rel="stylesheet" media="screen and (min-width:901px) and (max-width:3000px)" href="desktop.css">
-    
-    <link href="https://fonts.googleapis.com/css?family=Amiri:400i|Playfair+Display|Roboto|Rozha+One|Open+Sans" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,900|Poppins:400,400i" rel="stylesheet">
 
     
     </head>
     <body>
 
+<div id="navigation_bar">        
+<h1 class="T_portfolio">Whyte</h1>        
+<nav class="navbar">
+<!--<img class="nav-icon" href="#">-->
+<span class="open-slide" onclick="openSlideMenu()"><a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#222" stroke-width="4"/>
+            <path d="M0,14 30,14" stroke="#222" stroke-width="4"/>
+            <path d="M0,23 30,23" stroke="#222" stroke-width="4"/>
+        </svg>
+      </a>
+</span>
+</nav>
+
         
-    <nav> 
-        <ul>
-            <li id="name"><h1>Kyle Whyte</h1></li>
-            <div id="index">
-            <li class="active"><a href="#">work </a></li>
-            <li class="secondary"><a href="http://kylewhyte.co.nz/about">about</a></li>
-            </div>
-        </ul>
-    </nav>
+<ul class="navbar-nav">
+<li><a class="active" href="index.html">Work</a></li>
+<li><a href="about.html">About</a></li>
+</ul>
         
-    <div class="Layout_Work">
+<div id="side-menu" class="side-nav">
+<a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+<ul>
+    <li><a class="active" href="index.html">Work</a></li>
+    <li><a href="about.html">About</a></li>
+    </ul>
+
+</div>
+
+</div>
+
+<div id="Home_main" class="main_flex">
     
-       <a href="http://kylewhyte.co.nz/handyfella"><div class="DisplayP">
-    <img id="Handyfella" src="imgs/handyfella_logo1.png" alt="handyfella website" class="image">
+    <div id="Home_container">
+   
+        
+    <a href="http://kylewhyte.co.nz/handyfella"><div class="DisplayP">
+    <img id="Handy_Fella" src="imgs/c_Murray/Ipad_project.jpg" alt="C Murray Website" class="image">
     </div>
-    <div class="overlay">
-    <div class="text">Handy Fella</div>
+    </a>    
+        
+    <a href="http://kylewhyte.co.nz/handyfella"><div class="DisplayP">
+    <img id="Handy_Fella" src="imgs/handyfella/ipad2_home.jpg" alt="Handy Fella" class="image">
     </div>
     </a>
+
+    <a href="http://kylewhyte.co.nz/gorgeNZ"><div class="DisplayP">
+    <img id="gorgeNZ" src="imgs/gorgeNZ/gorge_0002_sticker.jpg" alt="Gorge NZ" class="image">
+    </div>
+    </a>    
         
     <a href="http://kylewhyte.co.nz/adrift"><div class="DisplayP">
-    <img id="adrift" src="imgs/adrift1.jpg" alt="Adrift mobile app" class="image">
-    </div>
-    <div class="overlay">
-    <div class="text">Adrift</div>
+    <img id="adrift" src="imgs/adrift/adrift1.jpg" alt="Adrift mobile app" class="image">
     </div>
     </a>
         
     <a href="http://kylewhyte.co.nz/what-you-say"><div class="DisplayP">   
-    <img id="Letterpress"src="imgs/letterpress2.jpg" alt="What you say, What you mean" class="image">
-    </div>
-    <div class="overlay">
-    <div class="text">What you say. What you mean</div>
+    <img id="Letterpress"src="imgs/letterpress/letterpress2.jpg" alt="What you say, What you mean" class="image">
     </div>
     </a>
         
-        
-    <a href="http://kylewhyte.co.nz/dark-side-of-fashion"><div class="DisplayP">
-    <img id="Fashion" src="imgs/fashion3.jpg" alt="Dark Side of Fashion" class="image">
-    </div>
-    <div class="overlay">
-    <div class="text">Dark Side of Fashion</div>
+     <a href="http://kylewhyte.co.nz/dark-side-of-fashion"><div class="DisplayP">
+    <img id="Fashion" src="imgs/fashion/fashion3.jpg" alt="Dark Side of Fashion" class="image">
     </div>
     </a>
         
     <a href="http://kylewhyte.co.nz/crunch-time"><div class="DisplayP">
-    <img id="Crunch"src="imgs/crunch2d.jpg" alt="Crunch Time" class="image">
+    <img id="Crunch"src="imgs/crunch_time/crunch2d.jpg" alt="Crunch Time" class="image">
     </div>
-    <div class="overlay">
-    <div class="text">Crunch Time</div>
+    </a>    
+    
+    <a href="http://kylewhyte.co.nz/colour-code">
+    <div class="DisplayP">
+        <img id="colour" src="imgs/colour_code/colourcode2.jpg" alt="Colour Code"class="image">
     </div>
     </a>
-        
-<a href="http://kylewhyte.co.nz/colour-code">
-    <div class="DisplayP">
-        <img id="colour" src="imgs/colourcode2.jpg" alt="Colour Code"class="image">
-    </div>
-    <div class="overlay">
-    <div class="text">Colour Code</div>
-    </div>
-</a>
         
     <a href="http://kylewhyte.co.nz/angus"><div class="DisplayP">
-    <img id="Angus" src="imgs/character1.jpg" alt="reimagined Character design for irn bru mascot"class="image"></div>
-    <div class="overlay">
-    <div class="text">Irn bru mascot design</div>
-    </div>
+    <img id="Angus" src="imgs/angus/character1.jpg" alt="reimagined Character design for irn bru mascot"class="image"></div>
     </a>
         
-            <div class="DisplayP hollow">
-            </div>
+    </div>
     
-    <!--<a href="http://kylewhyte.co.nz/lightshade"><div class="DisplayP">
-    <img id="Light" src="imgs/light2.jpg" alt="Lightshade"class="image">
-    </div>
-    <div class="overlay">
-    <div class="text">Lightshade</div>
-    </div>
- </a>-->
-
-      <div class="DisplayP hollow">
-            </div>
+<!--<div class="footer" id="home_footer">
+    <ul>
+        <li><a href="icon"><img src="instagram"></a></li>
+        <li><a href="icon"><img src="facebook/twitter"></a></li>
+        <li><a href="icon"><img src="behance/dribble"></a></li>
+    </ul>    
+</div>-->    
+    
+</div>      
         
-    </div>
+    <script>
+        function openSlideMenu(){
+          document.getElementById('side-menu').style.width = '100%';
+
+          document.getElementById('main').style.marginLeft = '0px';
+        }
+
+        function closeSlideMenu(){
+          document.getElementById('side-menu').style.width = '0';
+          document.getElementById('main').style.marginLeft = '0';
+        }
+    </script> 
 </body>
 </html>

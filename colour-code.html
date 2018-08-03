@@ -3,83 +3,110 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	    
-    <!---discovery data-->   
-    <meta name="author" content="Giverny Mae Baxter, Olivia Courtney, Lewis Ellison, Dora Remmerswaal, Kyle Whyte">
     
-    <meta name="keywords" content="colour code,color, colour, colouring, creative industry, wall print, postcard">
+        <!---discovery data-->   
+    <meta name="author" content="Kyle Whyte">
     
-    <meta name="description" content="What you say, what you mean is a book exploring the disconnection created through digital devices in communicating our true feelings and emotions. The book uses marbling techniques, colours and modern expressions to encourage thought into how what we say reflects what we mean.">
+    <meta name="keywords" content="graphic design, design, branding, print, ui, ux, app,character design, video, portfolio, kyle whyte, work, New Zealand, Nelson">
     
-    <title>Colour Code</title>
-     
-    <!---responsive stylesheets--> 
+    <meta name="description" content="Hi, my name is Kyle and i’m an interdisciplinary designer skilled in print, web, branding and graphic design. Click in to see my portfolio.">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="mobile.css">
+    
+    <link rel="shortcut icon" href="imgs/w-icon.png">
+
+<!---responsive stylesheets--> 
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" type="text/css" href="mobile.css">
-    
-        <link rel="stylesheet" media="screen and (max-width:640px)" href="mobile.css">
-    
-        <link rel="stylesheet" media="screen and (min-width:641px)" href="tablet.css">
-    
-        <link rel="stylesheet" media="screen and (min-width:901px) and (max-width:1600px)" href="desktop.css">
-    
-    <link href="https://fonts.googleapis.com/css?family=Amiri:400i|Playfair+Display|Roboto|Rozha+One" rel="stylesheet">
 
-<link rel="shortcut icon" href="imgs/w-icon.png">
+    <!--<link href="https://fonts.googleapis.com/css?family=Amiri:400i|Playfair+Display|Roboto|Rozha+One|Open+Sans" rel="stylesheet">-->
+    
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,900|Poppins:400,400i" rel="stylesheet">
+
     
     </head>
     <body>
-        
- <nav> 
-        <ul>
-            <li id="name"><h1>Kyle Whyte</h1></li>
-            <div id="index">
-            <li class="secondary"><a href="http://kylewhyte.co.nz">work </a></li>
-            <li class="secondary"><a href="http://kylewhyte.co.nz/about">about</a></li>
-            </div>
-        </ul>
-    </nav>
 
-    <div id="ProjectLayout">     
+<div id="navigation_bar">        
+<h1 class="T_portfolio"><a href="index.html">Whyte</a></h1>        
+<nav class="navbar">
+<!--<img class="nav-icon" href="#">-->
+<span class="open-slide" onclick="openSlideMenu()"><a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#222" stroke-width="4"/>
+            <path d="M0,14 30,14" stroke="#222" stroke-width="4"/>
+            <path d="M0,23 30,23" stroke="#222" stroke-width="4"/>
+        </svg>
+      </a>
+</span>
+</nav>
+
         
-     
-    <img  src="imgs/colourcode2.jpg" alt="Colour Code cover img">
-    
-    
+<ul class="navbar-nav">
+<li><a href="index.html">Work</a></li>
+<li><a href="about.html">About</a></li>
+</ul>
         
-<div id="details">
-    <h1>Colour Code</h1>
-    
-    <ul class="column">
-        <li><b>Client</b></li>
-        <li>Massey Creative Market place</li>
-        <li><b>Deliverables</b></li>
-        <li>2m x 1.2m colouring wall</li>
-        <li>4 colouring postcards</li>
+<div id="side-menu" class="side-nav">
+<a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+<ul>
+    <li><a href="index.html">Work</a></li>
+    <li><a href="about.html">About</a></li>
     </ul>
-      
-    <ul class="column">
-        <!--<li><b>Year: </b>2016</li>-->
-        <li><b>Design</b></li>
-        <li>Giverny Mae Baxter</li>
-        <li>Olivia Courtney</li>
-        <li>Lewis Ellison</li>
-        <li>Dora Remmerswaal</li>
-        <li>Kyle Whyte</li>
-    </ul>
-    
+
+</div>
+
 </div>
         
-<div class="description">            
- <p1>Colour Code is a colouring in stall created for Massey Universities creative industrys paper. The brief was to create a non profit stall providing an offering or activity for people to interact with in a shared marketplace. Our groups offering took inspiration from the recent sucess of colouring in books as a form of stress relief, we then used kerby rosanes work from sketchy stories as an inspiration for how we collectively contributed to the final outputs. <br><br></p1>
- </div>   
 
-<img class="wall" src="imgs/colourcode1.jpg" alt="wall display">
-<img class="postcard" src="imgs/colourcode3.jpg" alt="postcard1">
-<img class="postcard" src="imgs/colourcode4.jpg" alt="postcard2">
-<img class="postcard" src="imgs/colourcode5.jpg" alt="postcard3">
-<img class="postcard" src="imgs/colourcode6.jpg" alt="postcard4">
+<div id="main">
+    
+    <div id="container">
+        
+    <div  class="description">
+        <h2>Colour Code</h2>
+        <p1>Colour Code originated from a Massey paper called ‘Creative industry’ focused on creating a stall offering a product, activity or service for a shared marketplace. Placed into a team with Dora , Giverny, Lewis and Olivia we shared ideas and explored different products until we settled on reusable eco bags to give users at the market place. As we progressed with the idea and investigated production cost, we realized that this idea was not feasible to us and had to begin a quest to search for a new idea. Running across an earlier idea we redesigned our offering as an activity based on the recent success of colouring in books as a form of relaxing and stress relief. Using Kerby Rosanes style from his art and colouring book anmorphia as an inspiration, we combine our ideas into the final outputs of a 3m x 1.5m colouring wall and a collection of postcards with which users could share their experience. Massive credit to lewis who drew the fantastic giant head and many of the smaller tv characters scattered within the design.
+        </p1></div>   
+
+
+<img src="imgs/colour_code/_0001_wall.jpg">
+
+<img src="imgs/colour_code/_0012_postcard-ver2-1b.jpg">
+
+<img src="imgs/colour_code/_0013_postcard-ver2-3b.jpg">
+        
+<img src="imgs/colour_code/_0014_postcard-ver2-4b.jpg">     
+<img src="imgs/colour_code/_0014_postcard-ver2-2b.jpg">
+  <!--<img src="imgs/colour_code/_0007_postcard-collection1.jpg">-->
+<img src="imgs/colour_code/_0009_postcard-collection-3.jpg">
+
+        
+        <div class="next_project">
+      
+        <h4>
+        <a href="angus.html">previous</a>
+        /
+        <a href="dark-side-of-fashion.html">next</a>
+        </h4>
+    </div>
+    
+    </div>  
+    
+      
     
     </div>
-    </body>
+    
+    <script>
+        function openSlideMenu(){
+          document.getElementById('side-menu').style.width = '100%';
+
+          document.getElementById('main').style.marginLeft = '0px';
+        }
+
+        function closeSlideMenu(){
+          document.getElementById('side-menu').style.width = '0';
+          document.getElementById('main').style.marginLeft = '0';
+        }
+    </script> 
+</body>
 </html>

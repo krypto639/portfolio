@@ -3,64 +3,104 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-      <!---discovery data-->   
+    
+        <!---discovery data-->   
     <meta name="author" content="Kyle Whyte">
     
-    <meta name="keywords" content="about, kyle whyte, graphic design, design, nelson, new zealand, design portfolio,">
+    <meta name="keywords" content="graphic design, design, branding, print, ui, ux, app,character design, video, portfolio, kyle whyte, work, New Zealand, Nelson">
     
-    <meta name="description" content="Hi. I’m an interdisciplinary designer skilled in print, web, branding and graphic design. I love design, especially in what it can offer to problems we encounter everyday, and enjoy design as a strategy, applied in the solution of these problems. ">
-    
-    <title>about</title>
-      
-    <!---responsive stylesheets--> 
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="mobile.css">
-    
-        <link rel="stylesheet" media="screen and (max-width:640px)" href="mobile.css">
-    
-        <link rel="stylesheet" media="screen and (min-width:641px)" href="tablet.css">
-    
-        <link rel="stylesheet" media="screen and (min-width:901px) and (max-width:1600px)" href="desktop.css">
-    
-    <link href="https://fonts.googleapis.com/css?family=Amiri:400i|Playfair+Display|Roboto|Rozha+One|Open+Sans" rel="stylesheet">
+    <meta name="description" content="Hi, my name is Kyle and i’m an interdisciplinary designer skilled in print, web, branding and graphic design. Click in to see my portfolio.">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="mobile.css">
     
     <link rel="shortcut icon" href="imgs/w-icon.png">
 
+<!---responsive stylesheets--> 
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="mobile.css">
+
+    <!--<link href="https://fonts.googleapis.com/css?family=Amiri:400i|Playfair+Display|Roboto|Rozha+One|Open+Sans" rel="stylesheet">-->
+    
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,900|Poppins:400,400i" rel="stylesheet">
 
     
     </head>
     <body>
-        
-    <nav> 
-        <ul>
-            <li id="name"><h1>Kyle Whyte</h1></li>
-            <div id="index">
-            <li class="secondary"><a href="http://kylewhyte.co.nz">work </a></li>
-            <li class="active"><a href="http://kylewhyte.co.nz/about">about</a></li>
-            </div>
-        </ul>
-    </nav>
 
-<!--<h1>About</h1>-->
-    <div class="DisplayA"><img id="kw_img" src="imgs/kw1.jpg" alt="kyle whyte img"></div>
+<div id="navigation_bar">        
+<h1 class="T_portfolio"><a href="index.html">Whyte</a></h1>        
+<nav class="navbar">
+<!--<img class="nav-icon" href="#">-->
+<span class="open-slide" onclick="openSlideMenu()"><a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#222" stroke-width="4"/>
+            <path d="M0,14 30,14" stroke="#222" stroke-width="4"/>
+            <path d="M0,23 30,23" stroke="#222" stroke-width="4"/>
+        </svg>
+      </a>
+</span>
+</nav>
+
+        
+<ul class="navbar-nav">
+<li><a href="index.html">Work</a></li>
+<li><a href="about.html" class="active">About</a></li>
+</ul>
+        
+<div id="side-menu" class="side-nav">
+<a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+<ul>
+    <li><a href="index.html">Work</a></li>
+    <li><a href="about.html" class="active">About</a></li>
+    </ul>
+
+</div>
+
+</div>
+        
+
+<div id="main">
     
-    <div class="AboutText">
+    <div id="container">
+        
+    <div class="description">
+         
+    <!--<div class="DisplayA"><img id="kw_img" src="imgs/profile/kw1.jpg" alt="kyle whyte img"></div>-->
     
-    <p2>I’m an interdisciplinary designer skilled in print, web, branding and graphic design. I love design, especially in what it can offer to problems we encounter everyday, and enjoy design as a strategy, applied in the solution of these problems. </p2>
+    <div class="about_text">
+    <p1>I’m an interdisciplinary designer skilled in print, web, branding and graphic design. I love design, especially in what it can offer to problems we encounter everyday, and enjoy design as a strategy, applied in the solution of these problems. </p1>
         
         <br><br>
    
-    <p2>In 2017 I completed my 4 years study at Massey University in Wellington, gaining a bachelor degree with honors in Visual Communication Design.  In this time some of the things i am proud to have accomplished include an exchange semester to Germany at Hochschule München in 2016, and attending dutch design week in Eindhoven. 
+    <p1>In 2017 I completed my 4 years study at Massey University in Wellington, gaining a bachelor degree with honors in Visual Communication Design.  In this time some of the things i am proud to have accomplished include an exchange semester to Germany at Hochschule München in 2016, and attending dutch design week in Eindhoven. 
     
         <br><br>
         
-    This experience influenced my final year project, 'Adrift' which focused on travel and cultural adjustment. I was also privileged to attend the Best Awards in 2017 and win a gold for 'the Dark Side of Fashion' which I worked on with Luke Hoban.</p2>
+    This experience influenced my final year project, 'Adrift' which focused on travel and cultural adjustment. I was also privileged to attend the Best Awards in 2017 and win a gold for 'the Dark Side of Fashion' which I worked on with Luke Hoban.</p1>
     
      <br>    <br>
     
-    <p2>If your interested in contacting me you can reach me at <a href="mailto:hello@kylewhyte.co.nz">hello@kylewhyte.co.nz</a>. You can also find me via <a href="https://www.behance.net/Kyle_W" target="_blank">behance</a> or <a href="https://www.instagram.com/kylew_artanddesign/?hl=en" target="_blank">instagram</a> to see my latest work.</p2>
-   
+    <p1>If your interested in contacting me you can reach me at <a href="mailto:hello@kylewhyte.co.nz">hello@kylewhyte.co.nz</a>. You can also find me via <a href="https://www.behance.net/Kyle_W" target="_blank">behance</a> or <a href="https://www.instagram.com/kylew_artanddesign/?hl=en" target="_blank">instagram</a> to see my latest work.</p1>
         </div>
-  </body>
+        </div>       
+        
+    
+    </div>  
+      
+    
+    </div>
+    
+    <script>
+        function openSlideMenu(){
+          document.getElementById('side-menu').style.width = '100%';
+
+          document.getElementById('main').style.marginLeft = '0px';
+        }
+
+        function closeSlideMenu(){
+          document.getElementById('side-menu').style.width = '0';
+          document.getElementById('main').style.marginLeft = '0';
+        }
+    </script> 
+</body>
 </html>
