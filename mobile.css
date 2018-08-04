@@ -166,7 +166,7 @@ font-family: 'Poppins', sans-serif;
 }
     
     iframe{
-        height:340px;
+        height:54vw;
     }
 }
 
@@ -185,8 +185,14 @@ font-family: 'Poppins', sans-serif;
         margin: 0 auto;
     }
     
-    iframe{
-        height:360px;
+    /*iframe{
+        height:400px;
+    }*/
+}
+
+@media(min-width:840px){
+  iframe{
+        height:460px;
     }
 }
 
