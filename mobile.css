@@ -126,6 +126,7 @@ margin:4% 0 0 15%;}
 .description h2{
     margin-bottom: 10px;
     font-size:18px;
+    /*width:400px;*/
  font-family: 'Poppins', sans-serif;
 }
 
@@ -133,7 +134,10 @@ margin:4% 0 0 15%;}
 font-size: 11px;
 font-family: 'Poppins', sans-serif;
 }
-
+.description ul li{
+    list-style: none;
+    margin:8px 0 8px -20px;
+}
 .next_project{
     display: flex;
     justify-content: space-around;
@@ -181,7 +185,7 @@ font-family: 'Poppins', sans-serif;
     }
     
     #container{
-        width: 800px;
+        width: 810px;
         margin: 0 auto;
     }
     
@@ -217,9 +221,24 @@ font-family: 'Poppins', sans-serif;
 #compare-2 img{
     width:100%;
 }
+/*-----fashion-----*/
+div #B-Award{
+    width:50px;
+    position:relative;
+    float:right;
+    top:-15px;
+    left:-20px;
+}
+/*-----Crunch-----*/
+.flavours{
+    opacity: 0.8;
+    color:#5499C7; 
+}
 /*-----About pg-----*/
-.about_text{
-    
+@media(min-width:560px){
+    .about_text{
+    margin-top:0;
+    }
 }
 /*-----hamburger menu-----*/
   
